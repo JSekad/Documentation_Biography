@@ -1,7 +1,17 @@
 {
   "devDependencies": {
-    "vitepress": "^1.1.4",
-    "vue": "^3.4.27"
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.2.11",
+    "vue": "^3.2.0"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.2.11",
+    "vue": "^3.2.0"
+  },
+  "engines": {
+    "node": "^18.0.0 || >=20.0.0",
+    "npm": ">=8.0.0"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs --host",
